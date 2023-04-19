@@ -14,7 +14,7 @@ public partial  class Program
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
-        builder.Services.AddSingleton<Store1>((services) => new Store1(builder.Configuration["Store1"]));
+        builder.Services.AddSingleton<Store1>(new Store1(builder.Configuration["Store1"]));
         string s2 = builder.Configuration["Store2"];
         builder.Services.AddScoped<Store2>((services)=>new Store2((builder.Configuration["Store2"])));
         builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
