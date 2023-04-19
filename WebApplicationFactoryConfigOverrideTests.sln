@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationFactoryConfigOverrideTests", "WebApplicationFactoryConfigOverrideTests\WebApplicationFactoryConfigOverrideTests.csproj", "{26683F55-EAA4-4FE7-A71B-893433A8AC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{7F63993C-F98B-4362-8C5F-6AF0EFFAFE33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26683F55-EAA4-4FE7-A71B-893433A8AC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26683F55-EAA4-4FE7-A71B-893433A8AC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26683F55-EAA4-4FE7-A71B-893433A8AC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26683F55-EAA4-4FE7-A71B-893433A8AC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F63993C-F98B-4362-8C5F-6AF0EFFAFE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F63993C-F98B-4362-8C5F-6AF0EFFAFE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F63993C-F98B-4362-8C5F-6AF0EFFAFE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F63993C-F98B-4362-8C5F-6AF0EFFAFE33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A5E0DE5-6812-4584-9C9A-3F544077552C}
+	EndGlobalSection
+EndGlobal
