@@ -25,7 +25,7 @@ public class WeatherForecastController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public ActionResult Get()
     {
-        
+        _logger.LogError($"Logging from my controller {DateTime.Now.ToString("f")}");
         return Ok(_configuration["Store2"]);
     }
 }
